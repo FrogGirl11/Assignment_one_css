@@ -1,31 +1,28 @@
 .video-container{
-    display: inline;
+    display: flex;
     justify-content: center;
-    align-items: center;
     overflow: hidden;
-    padding: 50px 20px;
+    padding: 29 px;
+    max-width: 1200 px;
 }
 
 iframe{
-    margin: top 6rem;
-    border-radius: 10px;
-    flex:1
+    margin-top: 6rem;
+    flex: 1;
+
 }
 
 @media screen and (min-width:768px){
     iframe{
         height: 35rem;
-        max-width: 97%;
-    }
-    .card {
-        flex-grow: 1; 
+        max-width: 87%;
     }
 }
 
-@media screen and (min-width:1500px){
+@media screen and (min-width:1200px){
     iframe{
         height: 40rem;
-        max-width: 68%;
+        max-width: 90%;
     }
     .card {
         flex-grow: 1; 
